@@ -23,7 +23,7 @@ git clone https://github.com/baris-saltik/ddlh-api-examples
 ```
 4. Switch into self-describing-media-archives directory, create a virtual Python environment named ".venv" and activate that environment.
 ```console
-cd self-ddlh-api-examples  
+cd ddlh-api-examples  
 python -m venv .venv  
 .venv\Scripts\activate.bat  
 ```
@@ -32,7 +32,7 @@ python -m venv .venv
 python -m pip install -r Requirements.txt
 ```
 6. Launch the application
-    -  Edit the "/config.yaml" configuration file with respective credentials
+    -  Edit the "config.yaml" configuration file with respective credentials
     -  Enable/Disable method calls in the main section of the "ddlh_api.py" file (section that starts "if __name__ == "__main__:")
     -  Run the following:
    ```console
